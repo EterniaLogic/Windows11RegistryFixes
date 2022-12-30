@@ -2,7 +2,7 @@
 Registry hacks to fix many common annoyances, such as the context menu, TPM, several checks, Bing Search, Cortana, ect. Some fixes taken from articles and adapted to work with a batch file instead.
 
 
-* TPM Removal
+* TPM Requirement
 * Computer requirements removal
 * Right click context menu fix to older Win10- version
 * Disable Bing / Search highlights in Task Menu
