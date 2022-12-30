@@ -1,5 +1,5 @@
 # Windows 11 Registry Fixes
-Registry hacks to fix many common annoyances, such as the context menu, TPM, several checks, Bing Search, Cortana, ect. Some fixes taken from articles and adapted to work with a batch file instead.
+Registry hacks to fix many common annoyances. Some fixes taken from articles and adapted to work with a batch file instead.
 
 
 
