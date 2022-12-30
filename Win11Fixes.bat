@@ -4,7 +4,8 @@ rem  Windows 11 Requirements Bypass
 rem ================================================================================
 rem
 rem  Written by Shiro39
-rem  Last modified 2021-08-03
+rem  Modified by Eternialogic
+rem  Last modified 2022-12-30
 rem
 rem ================================================================================
 title Windows 11
