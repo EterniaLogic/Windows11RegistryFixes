@@ -92,6 +92,10 @@ echo Disabling Bing Search in Start Menu
 reg add "HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Explorer" /v "DisableSearchBoxSuggestions" /f /t REG_DWORD /d 1
 echo Disabling Cortana
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v "AllowCortana" /f /t REG_DWORD /d 0
+echo Disable Startup Lock Screen (goes directly to password screen)
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Personalization" /v "NoLockScreen" /f /t REG_DWORD /d 1
+echo Faster Shutdown time (originally 5 second, now 1)
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control" /v "WaitToKillServiceTimeout" /f /t REG_DWORD /d 1000
 echo.
 echo Please restart to make these changes.
 pause
